@@ -1,0 +1,125 @@
+:root {
+  --mainColor: #4DB6AC;
+}
+
+body {
+  	color: rgb(12, 140, 142); 
+	background-color: rgb(230,230,230);
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+h1, h2 {
+	color: rgb(40,40,40);
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+}
+
+.title-adjust {
+  color: rgb(46, 215, 218);
+  font-family: 'Overpass Mono', monospace;
+  font-weight: bolder;
+}
+
+a {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #000;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+
+.container {
+  width: 1000px;     
+  margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.cards-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 15px;
+}
+
+.img-circle {
+  width: 194px;
+  height: 242px;
+  border-radius: 46%;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0,0.5);
+}
+
+.img-small {
+  width: 175px;
+  height: 62px;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0,0.5);
+}
+
+.list-removepoints {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn-blue {
+  background: rgb(12, 140, 142);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+#list-inline li {
+  display: inline;
+  padding: 10px
+}
+
+#introduction p {
+  margin-bottom: 30px
+}
+
+
+
+
+
